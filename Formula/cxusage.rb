@@ -7,22 +7,22 @@ class Cxusage < Formula
   on_macos do
     on_intel do
       url "https://github.com/johanneserhardt/cxusage/releases/download/v0.1.0/cxusage-darwin-amd64", :using => :nounzip
-      sha256 "93b75f86d18d7c2c9417c49ec9d8ba7bcb66edf82c2142c9b84aa06e337f7349"
+      sha256 "a01553821759fdf1d7d1936fe6d9777ce1324e961c0b48287bc927886a86a384"
     end
     on_arm do
       url "https://github.com/johanneserhardt/cxusage/releases/download/v0.1.0/cxusage-darwin-arm64", :using => :nounzip
-      sha256 "ce8dcbf3ecc8ddb0f0adb2e56fe175af5fe0a895bd43e43b38a23d40e1af634e"
+      sha256 "ddd2cb60b5fd3aea7a4744b86836a7321626023bd816a80f16921148e643a33d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/johanneserhardt/cxusage/releases/download/v0.1.0/cxusage-linux-amd64", :using => :nounzip
-      sha256 "4da6ad59af7c5c9d4f6899c39aa4d3dcfd0586743a3133d34ca684fde8a94565"
+      sha256 "57f458c5723409faccce4b58d56cc8c9ca7b0743b437e8ea208f3c2fa072d46b"
     end
     on_arm do
       url "https://github.com/johanneserhardt/cxusage/releases/download/v0.1.0/cxusage-linux-arm64", :using => :nounzip
-      sha256 "f597e82b55e2c09d12ac7bb055067a5851c165fb54879dd5fa2ac3b373300bda"
+      sha256 "4c4c8640355ba7e1530c090c556a578694ce3e47315d3deb6f89b712996be42a"
     end
   end
 
